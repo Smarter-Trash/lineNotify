@@ -77,7 +77,7 @@ void loop() {
   }
 
   else if (recv_state == 4){
-    mystring1 = "เคลียร์ถังขยะแล้วจ้า";
+    mystring1 = "ถังขยะโล่งแล้วจ้า";
     NotifyLine(mystring1);
   }
 
