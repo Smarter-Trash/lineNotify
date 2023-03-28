@@ -81,7 +81,13 @@ void loop() {
     NotifyLine(mystring1);
   }
 
-  else if (recv_state > 500){
+  else if (recv_state == 5){
+    Serial.println("immmmmmmmmmmmmmm in state 5");
+    mystring1 = "เติมเหรียญทุกเหรียญแล้วจ้า";
+    NotifyLine(mystring1);
+  }
+
+  else if (recv_state >    500){
     mystring1 = "ถังโลหะเต็มจ้า";
     NotifyLine(mystring1);
   }
